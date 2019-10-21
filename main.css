@@ -1,0 +1,104 @@
+
+#accordion {
+  width: 60%;
+  margin: auto;
+  margin-top: 100px;
+}
+@media(min-width: 768px)  {
+    #accordion {
+      width: 60%;
+    }
+}
+
+.accordion-headers {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: gray;
+  margin: 10px auto;
+  color: white;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+.toggle-indicator {
+  font-size: 40px;
+}
+
+.accordion-description {
+  height: 0;
+  overflow: hidden;
+  background-color: #f0f0f0;
+  transition: height 1s;
+}
+
+.accordion-open {
+  height: 100px;
+  padding: 5px 2px;
+  transition: height 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main Menu Styling
+.main-menu {
+  display: flex;
+}
+.main-menu li {
+  width: 33%;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  list-style-type: none;
+}
+.main-menu-labels {
+  margin: 0;
+  padding: 15px 0;
+  background-color: #08254f;
+  color: #fff;
+  font-size: 18px;
+}
+/* Sub Menu Styling
+.sub-menu {
+  padding-left: 0;
+  background-color: #dde1e7;
+}
+.sub-menu li {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: #08254f;
+  color: #fff;
+  font-size: 18px;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}*/
